@@ -1,9 +1,11 @@
 function helpFn(){
     console.log(`
     List of Command :
-    node main.js help
-    node main.js organize "dirPath"
-    node main.js tree "dirPath"
+    ranjit help 
+    ranjit organize "dirPath" [will organize files in the directory based on extension]
+    ranjit organize           [will work with the same directory you are currently at]
+    ranjit tree               [will work with the same directory you are currently at]
+    ranjit tree "dirPath"     [will present a tree structure of all the files and folders present inside of the directory path provided]
     `)
 }
 module.exports = {
